@@ -4,3 +4,15 @@
   margin: 0 auto;
   text-align: $centered;
 }
+@mixin centerFlex($centerFlex: flex) {
+  display: $centerFlex;
+  align-items: center;
+  justify-content: center;
+}
+// @mixin generateIcons($icons) {
+//   @each $icon in $icons {
+//     .icon-#{$icon} {
+//       background-image: url('../../images/#{$icon}.svg');
+//     }
+//   }
+// }

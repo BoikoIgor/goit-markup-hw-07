@@ -2,8 +2,12 @@
 @import './base/fonts';
 @import './base/normalize';
 @import './utils/common';
+@import './utils/placeholders';
+@import './utils/mixins';
 @import './components/page-header';
 
+// @include generateIcons($soc-icons);
+// @include generateIcons($benefits-icons);
 .hero {
   max-width: 1600px;
   height: 600px;
