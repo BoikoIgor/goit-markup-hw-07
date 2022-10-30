@@ -331,50 +331,50 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="footer container">
-        <div class="footer-contacts">
-          <a class="logo logo__white" href="./index.html" title="Web Studio"><span>Web</span>Studio</a>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__contacts">
+          <a class="logo logo--white" href="./index.html" lang="en" title="Web Studio"><span>Web</span>Studio</a>
           <address>
-            <ul class="address list">
+            <ul class="footer__list">
               <li>
-                <a class="address link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м.Київ, пр-т Лесі Українки, 26</a>
+                <a class="footer__address-link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м.Київ, пр-т Лесі Українки, 26</a>
               </li>
-              <li class="item">
-                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <li class="footer__contacts-item">
+                <a class="footer__contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
-              <li class="item">
-                <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="footer__contacts-item">
+                <a class="footer__contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="social-block">
-          <h2 class="social-title">приєднуйтесь</h2>
-          <ul class="icons list">
-            <li class="icon-item">
-              <a class="social link" href="">
+        <div class="socials">
+          <h2 class="socials__title">приєднуйтесь</h2>
+          <ul class="socials__list">
+            <li>
+              <a class="socials__link" href="">
                 <svg width="20" height="20">
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
-            </li>
-            <li class="icon-item">
-              <a class="social link" href="">
+            </liclass=>
+            <li>
+              <a class="socials__link" href="">
                 <svg width="20" height="20" viewBox="0 0 20 20">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-item">
-              <a class="social link" href="">
+            <li>
+              <a class="socials__link" href="">
                 <svg width="20" height="20" viewBox="0 0 20 20">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-item">
-              <a class="social link" href="">
+            <li>
+              <a class="socials__link" href="">
                 <svg width="20" height="20" viewBox="0 0 20 20">
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
@@ -383,14 +383,14 @@
           </ul>
         </div>
         <div class="send-block">
-          <h2 class="send-title">Підпишіться на розсилку</h2>
+          <h2 class="send-block__title">Підпишіться на розсилку</h2>
           <form>
             <label>
-              <input type="email" class="send-input" name="email" placeholder="E-mail" />
+              <input type="email" class="send-block__input" name="email" placeholder="E-mail" />
             </label>
             <button type="submit">
               Підписатися
-              <svg class="icon-send" width="24" height="24">
+              <svg class="send-block__send-icon" width="24" height="24">
                 <use href="./images/sprite.svg#icon-send"></use>
               </svg>
             </button>
@@ -399,9 +399,9 @@
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <p class="form-text">Залиште свої дані, ми вам передзвонимо</p>
-        <form class="form">
+      <div class="order-modal">
+        <p class="order-modal__title form-text">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="order-modal__form">
           <div class="form-field">
             <label for="name" class="form-label">Ім'я</label>
             <div class="form-icon">

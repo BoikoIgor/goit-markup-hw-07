@@ -567,42 +567,42 @@ img {
   fill: var(--accent-color);
 } */
 /* -----Footer----- */
-footer {
+/* footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--third-background-color);
-}
-.footer.container {
+} */
+/* .footer.container {
   display: flex;
   align-items: baseline;
 }
 .footer-contacts {
   width: 226px;
-}
-.footer .item {
+} */
+/* .footer .item {
   margin-top: 9px;
-}
-.footer .address {
+} */
+/* .footer .address {
   margin-top: 20px;
-}
-.footer .address.link {
+} */
+/* .footer .address.link {
   text-decoration: none;
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-accent-color);
-}
-.address .link {
+} */
+/* .address .link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-}
-.address .link:hover,
+} */
+/* .address .link:hover,
 .address .link:focus {
   color: var(--accent-color);
-}
-.social-title,
+} */
+/* .social-title,
 .send-title {
   font-weight: 700;
   font-size: 14px;
@@ -611,15 +611,15 @@ footer {
   margin-bottom: 20px;
   text-transform: uppercase;
   color: var(--second-accent-color);
-}
-footer .icons.list {
+} */
+/* footer .icons.list {
   min-width: 206px;
   display: flex;
   padding: 0;
   margin-top: 0;
   justify-content: space-between;
-}
-footer .social.link {
+} */
+/* footer .social.link {
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
@@ -627,14 +627,14 @@ footer .social.link {
 }
 footer .social.link:hover {
   background: var(--accent-color);
-}
-.social-block {
+} */
+/* .social-block {
   margin-left: 70px;
-}
-.send-block {
+} */
+/* .send-block {
   margin-left: 93px;
-}
-.send-block button {
+} */
+/* .send-block button {
   display: inline-block;
   min-width: 200px;
   min-height: 50px;
@@ -652,8 +652,8 @@ footer .social.link:hover {
   color: var(--second-accent-color);
   fill: var(--second-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.send-input {
+} */
+/* .send-input {
   padding: 15px;
   min-width: 358px;
   font-size: 16px;
@@ -664,11 +664,11 @@ footer .social.link:hover {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-}
-.send-block .icon-send {
+} */
+/* .send-block .icon-send {
   vertical-align: middle;
   margin-left: 10px;
-}
+} */
 /*------------------Portfolio page-------------- */
 /* -----------Filter buttons---------- */
 .list.filter .item {

@@ -44,3 +44,12 @@
 %current {
   color: $accent-color;
 }
+%footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: $second-accent-color;
+}
