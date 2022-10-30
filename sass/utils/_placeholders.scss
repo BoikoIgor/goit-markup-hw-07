@@ -36,3 +36,11 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+%centerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%current {
+  color: $accent-color;
+}
