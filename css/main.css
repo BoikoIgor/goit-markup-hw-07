@@ -1054,6 +1054,12 @@ img {
   justify-content: center;
   align-items: center;
 }
+.form__check-input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+}
 .form__custom-check {
   display: inline-block;
   width: 16px;
@@ -1062,16 +1068,33 @@ img {
   border: 2px solid #212121;
   border-radius: 2px;
 }
-.form__check-input {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  position: absolute;
-}
-.form__check-input:checked + .form__custom-chek {
+.form__check-input:checked + .form__custom-check {
   background-color: #2196f3;
   border-color: #2196f3;
   background-image: url(../images/check.svg);
   background-size: contain;
   background-origin: border-box;
+}
+.form__agree-link {
+  color: #2196f3;
+}
+.form__submit-btn {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-block;
+  min-width: 200px;
+  min-height: 50px;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.form__submit-btn:hover, .form__submit-btn:focus {
+  background-color: #188ce8;
 }/*# sourceMappingURL=main.css.map */
