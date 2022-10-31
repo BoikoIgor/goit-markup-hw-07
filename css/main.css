@@ -1022,6 +1022,7 @@ img {
 }
 .form__input:hover, .form__input:focus {
   border: 1px solid #2196f3;
+  outline: none;
 }
 .form__input:focus + .form__svg {
   fill: #2196f3;
@@ -1041,6 +1042,7 @@ img {
 }
 .form textarea:hover, .form textarea:focus {
   border: 1px solid #2196f3;
+  outline: none;
 }
 .form__checkbox {
   position: relative;

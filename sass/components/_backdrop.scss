@@ -93,6 +93,7 @@
     &:hover,
     &:focus {
       border: 1px solid $accent-color;
+      outline: none;
     }
     &:focus + .form__svg {
       fill: $accent-color;
@@ -113,6 +114,7 @@
     &:hover,
     &:focus {
       border: 1px solid $accent-color;
+      outline: none;
     }
   }
   &__checkbox {
